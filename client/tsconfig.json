@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "sourceMap": true,
+    //
+    "noImplicitAny": false,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    // "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "downlevelIteration": true
+  },
+  "include": ["src"]
+}
+
+// "compilerOptions": {
+//         "sourceMap": true,
+//         "noImplicitAny": false,
+//         "module": "esnext",
+//         "target": "es6",
+//         "lib": ["esnext", "dom", "dom.iterable"],
+//         "removeComments": true,
+//         "allowSyntheticDefaultImports": true,
+//         "jsx": "react",
+//         "baseUrl": "./",
+//         "outDir": "./public",
+//         "esModuleInterop": true,
+//         "resolveJsonModule": true,
+//         "moduleResolution": "node",
+//         "downlevelIteration": true
+//     },
